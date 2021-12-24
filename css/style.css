@@ -4,16 +4,16 @@ padding: 0;
 }
 body {
 font: 90%/4.5 Arial, Sans-Serif;
-background: rgb(87, 146, 212);
+background: rgb(65, 146, 238);
 }
 #container {
 margin: 100px auto;
-width: 720px;
+width: 800px;
 }
 #write {
 margin: 0 0 5px;
 padding: 5px;
-width: 720px;
+width: 800px;
 height: 200px;
 font: bold 1em/3.5 Arial, Sans-Serif;
 background: #fff;
@@ -29,8 +29,8 @@ list-style: none;
     #keyboard li {
     float: left;
     margin: 0 5px 5px 0;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     line-height: 40px;
     text-align: center;
     background: #fff;
@@ -48,13 +48,13 @@ list-style: none;
             width: 80px;
             }
             #keyboard .return {
-            width: 85px;
+            width: 100px;
             }
             #keyboard .left-shift {
-            width: 95px;
+            width: 108px;
             }
             #keyboard .right-shift {
-            width: 109px;
+            width: 108px;
             }
         .lastitem {
         margin-right: 0;
@@ -63,7 +63,7 @@ list-style: none;
         text-transform: uppercase;
         }
         #keyboard .space {
-        width: 460px;
+        width: 540px;
         }
         .on {
         display: none;
