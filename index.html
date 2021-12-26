@@ -5,28 +5,34 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>மெய்நிகர் விசைப்பலகை</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <h1 align=center>  மெய்நிகர் விசைப்பலகை </h1>
+    <h1 align=center>அகரப்பலகை</h1>
 </head>
+
+<ul id="keyboard">
+<li class="delete lastitem">சேமி＞</li>
+<li class="delete lastitem">பெறு＞</li>
+<li class="delete lastitem">அச்சிடு＞</li>
+<li class="delete lastitem">திரும்பு＞</li>
+<li class="delete lastitem">மீள்＞</li>
+<li class="delete lastitem">பகிர்＞</li>
 
 <body>
     <div id="container">
         <textarea id="write" rows="6" cols="60"></textarea>
         <ul id="keyboard">
-            <li class="symbol"><span class="off">`</span><span class="on">~</span></li>
-            <li class="symbol"><span class="off">1</span><span class="on">!</span></li>
-            <li class="symbol"><span class="off">2</span><span class="on">@</span></li>
-            <li class="symbol"><span class="off">3</span><span class="on">#</span></li>
-            <li class="symbol"><span class="off">4</span><span class="on">$</span></li>
-            <li class="symbol"><span class="off">5</span><span class="on">%</span></li>
-            <li class="symbol"><span class="off">6</span><span class="on">^</span></li>
-            <li class="symbol"><span class="off">7</span><span class="on">&amp;</span></li>
-            <li class="symbol"><span class="off">8</span><span class="on">*</span></li>
-            <li class="symbol"><span class="off">9</span><span class="on">(</span></li>
-            <li class="symbol"><span class="off">0</span><span class="on">)</span></li>
-            <li class="symbol"><span class="off">-</span><span class="on">_</span></li>
-            <li class="symbol"><span class="off">=</span><span class="on">+</span></li>
-            <li class="delete lastitem">delete</li>
-            <li class="letter">ௐ</li>
+            <li class="symbol"><span class="off">EN</span><span class="on">TN</span></li>
+            <li class="symbol"><span class="off">௧</span><span class="on">1</span></li>
+            <li class="symbol"><span class="off">௨</span><span class="on">2</span></li>
+            <li class="symbol"><span class="off">௩</span><span class="on">3</span></li>
+            <li class="symbol"><span class="off">௪</span><span class="on">4</span></li>
+            <li class="symbol"><span class="off">௫</span><span class="on">5</span></li>
+            <li class="symbol"><span class="off">௬</span><span class="on">6</span></li>
+            <li class="symbol"><span class="off">௭</span><span class="on">7</span></li>
+            <li class="symbol"><span class="off">௮</span><span class="on">8</span></li>
+            <li class="symbol"><span class="off">௯</span><span class="on">9</span></li>
+            <li class="symbol"><span class="off">0</span><span class="on">0</span></li>
+            <li class="delete lastitem" id = "bckspace"> ＜நீக்கு</li>
+            <li class="delete lastitem">நீக்கு＞</li>
             <li class="letter">்</li>
             <li class="letter">ா</li>
             <li class="letter">ி</li>
@@ -39,55 +45,88 @@
             <li class="letter">ொ</li>
             <li class="letter">ோ</li>
             <li class="letter">ௌ</li>
-            <li class="symbol"><span class="off">.</span><span class="on">&gt;</span></li>
-            <li class="symbol"><span class="off">/</span><span class="on">?</span></li>
-            <li class="letter">அ</li>
-            <li class="letter">ஆ</li>
-            <li class="letter">இ</li>
-            <li class="letter">ஈ</li>
-            <li class="letter">க</li>
-            <li class="letter">ங</li>
-            <li class="letter">ச</li>
-            <li class="letter">ஞ</li>
-            <li class="letter">ட</li>
-            <li class="letter">ண</li>
-            <li class="symbol"><span class="off">[</span><span class="on">{</span></li>
-            <li class="symbol"><span class="off">]</span><span class="on">}</span></li>
+            <li class="letter">ௗ</li>
+            <li class="return lastitem">சேர்ந்து</li>
+
+            <li class="symbol"><span class="off">அ</span><span class="on">a</span></li>
+            <li class="symbol"><span class="off">ஆ</span><span class="on">b</span></li>
+            <li class="symbol"><span class="off">இ</span><span class="on">c</span></li>
+            <li class="symbol"><span class="off">ஈ</span><span class="on">d</span></li>
+            <li class="symbol"><span class="off">உ</span><span class="on">e</span></li>
+            <li class="symbol"><span class="off">ஊ</span><span class="on">f</span></li>
+            <li class="symbol"><span class="off">எ</span><span class="on">g</span></li>
+            <li class="symbol"><span class="off">ஏ</span><span class="on">h</span></li>
+            <li class="symbol"><span class="off">ஐ</span><span class="on">i</span></li>
+            <li class="symbol"><span class="off">ஒ</span><span class="on">j</span></li>
+            <li class="symbol"><span class="off">ஓ</span><span class="on">k</span></li>
+            <li class="symbol"><span class="off">ஔ</span><span class="on">l</span></li>
+            <li class="symbol"><span class="off">ஃ</span><span class="on">m</span></li>
+            <li class="return lastitem">சேர்ந்து</li>
+            <li class="symbol"><span class="off">க</span><span class="on">n</span></li>
+            <li class="symbol"><span class="off">ங</span><span class="on">o</span></li>
+            <li class="symbol"><span class="off">ச</span><span class="on">p</span></li>
+            <li class="symbol"><span class="off">ஞ</span><span class="on">q</span></li>
+            <li class="symbol"><span class="off">ட</span><span class="on">r</span></li>
+            <li class="symbol"><span class="off">ண</span><span class="on">s</span></li>
+            <li class="symbol"><span class="off">த</span><span class="on">t</span></li>
+            <li class="symbol"><span class="off">ந</span><span class="on">u</span></li>
+            <li class="symbol"><span class="off">ப</span><span class="on">v</span></li>
+            <li class="symbol"><span class="off">ம</span><span class="on">w</span></li>
+            <li class="symbol"><span class="off">ய</span><span class="on">x</span></li>
+            <li class="symbol"><span class="off">ர</span><span class="on">y</span></li>
+            <li class="symbol"><span class="off">ல</span><span class="on">z</span></li>
+            <li class="return lastitem">மாற்று</li>
+            <li class="symbol"><span class="off">வ</span><span class="on">A</span></li>
+            <li class="symbol"><span class="off">ழ</span><span class="on">B</span></li>
+            <li class="symbol"><span class="off">ள</span><span class="on">C</span></li>
+            <li class="symbol"><span class="off">ற</span><span class="on">D</span></li>
+            <li class="symbol"><span class="off">ன</span><span class="on">E</span></li>
+            <li class="symbol"><span class="off">ஜ</span><span class="on">F</span></li>
+            <li class="symbol"><span class="off">௳</span><span class="on">G</span></li>
+            <li class="symbol"><span class="off">ௐ</span><span class="on">H</span></li>
+            <li class="symbol"><span class="off">ஶ்ரீ</span><span class="on">I</span></li>
+            <li class="symbol"><span class="off">ஸ</span><span class="on">J</span></li>
+            <li class="symbol"><span class="off">ஷ</span><span class="on">K</span></li>
+            <li class="symbol"><span class="off">ஹ</span><span class="on">L</span></li>
+            <li class="symbol"><span class="off">க்ஷ</span><span class="on">M</span></li>
+            <li class="return lastitem">தேடு</li>
+
+            <li class="symbol"><span class="off">ஶ</span><span class="on">N</span></li>
+            <li class="symbol"><span class="off">௴</span><span class="on">O</span></li>
+            <li class="symbol"><span class="off">௵</span><span class="on">P</span></li>
+            <li class="symbol"><span class="off">௶</span><span class="on">Q</span></li>
+            <li class="symbol"><span class="off">௷</span><span class="on">R</span></li>
+            <li class="symbol"><span class="off">௸</span><span class="on">S</span></li>
+            <li class="symbol"><span class="off">௹</span><span class="on">T</span></li>
+            <li class="symbol"><span class="off">௺</span><span class="on">U</span></li>
+            <li class="symbol"><span class="off">௰</span><span class="on">V</span></li>
+            <li class="symbol"><span class="off">௱</span><span class="on">W</span></li>
+            <li class="symbol"><span class="off">௲</span><span class="on">X</span></li>
+            <li class="symbol"><span class="off">ஂ</span><span class="on">Y</span></li>
+            <li class="symbol"><span class="off">卍</span><span class="on">Z</span></li>
+            <li class="return lastitem">நுழை</li>
+
+            <li class="symbol"><span class="off">*</span><span class="on">&quot;</span></li>
+            <li class="symbol"><span class="off">&</span><span class="on">&lt;</span></li>
+            <li class="symbol"><span class="off">@</span><span class="on">{</span></li>
+            <li class="symbol"><span class="off">#</span><span class="on">}</span></li>
+            <li class="symbol lastitem"><span class="off">?</span><span class="on">|</span></li>            
+            <li class="symbol"><span class="off">;</span><span class="on">&quot;</span></li>
+            <li class="symbol"><span class="off">/</span><span class="on">&lt;</span></li>
+            <li class="symbol"><span class="off">(</span><span class="on">{</span></li>
+            <li class="symbol"><span class="off">)</span><span class="on">}</span></li>
             <li class="symbol lastitem"><span class="off">\</span><span class="on">|</span></li>
-            <li class="return lastitem">return</li>
-            <li class="letter">உ</li>
-            <li class="letter">ஊ</li>
-            <li class="letter">எ</li>
-            <li class="letter">ஏ</li>
-            <li class="letter">த</li>
-            <li class="letter">ந</li>
-            <li class="letter">ப</li>
-            <li class="letter">ம</li>
-            <li class="letter">ய</li>
-            <li class="letter">ர</li>
-            <li class="letter">ஜ</li>
-            <li class="letter">ஷ</li>
-            <li class="letter">ஸ</li>
-            <li class="symbol"><span class="off">'</span><span class="on">&quot;</span></li>
-            <li class="symbol"><span class="off">,</span><span class="on">&lt;</span></li>
-            <li class="letter">ஐ</li>
-            <li class="letter">ஒ</li>
-            <li class="letter">ஓ</li>
-            <li class="letter">ஔ</li>
-            <li class="letter">ல</li>
-            <li class="letter">வ</li>
-            <li class="letter">ழ</li>
-            <li class="letter">ள</li>
-            <li class="letter">ற</li>
-            <li class="letter">ன</li>
-            <li class="letter">ஹ</li>
-            <li class="letter">க்ஷ</li>
-            <li class="symbol"><span class="off">;</span><span class="on">:</span></li>
-            <li class="letter">ஃ</li>
-            <li class="letter">ஶ்ரீ</li>
-            <li class="left-shift">Shift</li>
-            <li class="space">SPACE BAR  &nbsp;</li>
-            <li class="right-shift lastitem">Shift</li>
+            <li class="symbol"><span class="off">:</span><span class="on">:</span></li>
+            <li class="symbol lastitem"><span class="off">,</span><span class="on">|</span></li>
+            <li class="symbol"><span class="off">.</span><span class="on">:</span></li>
+            <li class="return lastitem">நுழை</li>
+
+            <li class="left-shift">12/௫௪</li>
+            <li class="right-shift lastitem">குறியீடு</li>
+            <li class="right-shift lastitem">படவுரு</li>
+            <li class="right-shift lastitem">மற்றவை</li>
+            <li class="space">இடவெளி  &nbsp;</li>
+
         </ul>
     </div>
 
